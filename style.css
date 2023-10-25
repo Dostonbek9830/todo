@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form-warpper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    text-indent: 10px;
+    outline: none;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+input::placeholder {
+    color: green;
+    font-style: italic;
+}
+
+.form-btn-speech {
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 25px;
+    background: url(icons8-микрофон-50.png);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.form-btn-add-todo {
+    border: none;
+    background: url(icons8-добавить-50.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+.list__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 170px;
+    margin-top: 30px;
+    margin-left: 420px;
+
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.time__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.output__item {
+    font-weight: bold;
+    font-size: 20px;
+    list-style: decimal;
+}
+
+.time__item {
+    font-size: 20px;
+    list-style: none;
+    font-style: italic;
+}
